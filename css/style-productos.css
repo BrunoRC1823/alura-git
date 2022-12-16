@@ -1,5 +1,5 @@
 .productos{
-    width: 940px;
+    width: 65%;
     margin: 0 auto;
     padding: 50px;
 }
@@ -27,11 +27,15 @@
     box-shadow: 3px 3px 3px  #088c19;
 }
 .productos h2{
-    font-size: 30px;
+    font-size: 25px;
     font-weight: bold;
 }
 .productos li:hover h2{
-    font-size: 33px;
+    font-size: 28px;
+    font-weight: bold;
+}
+.productos li img{
+    width: 100%;
 }
 .prod-desc{
     font-size: 18px;
