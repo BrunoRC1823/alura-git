@@ -1,0 +1,98 @@
+main{
+    width: 940px;
+    margin: 0 auto;
+}
+form{
+    margin: 40px 0;
+}
+form label,form p{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+.input-padron{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    width: 50%;
+    font-size: 14px;
+}
+.p-radio,.label-check,.p-horario{
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+.check-r{
+    cursor: pointer;
+    background-color: #fff;
+    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 16 16' fill='white' xmlns='http://www.w3.org/2000/svg'%3e%3cpath d='M12.207 4.793a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0l-2-2a1 1 0 011.414-1.414L6.5 9.086l4.293-4.293a1 1 0 011.414 0z'/%3e%3c/svg%3e");
+    width: 13px;
+    height: 13px;
+    border-radius: 10px;
+    vertical-align: text-bottom;
+    appearance: none;
+    border: 1px solid #888;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.check-r:checked,.check:checked {
+    background-color: #C78C19;
+}
+.check-r:disabled,.check:disabled {
+    background-color: rgb(198, 198, 198);
+    background-image: none;
+}
+
+.check-r:disabled:checked,.check:disabled:checked{
+    background-color: rgb(198, 198, 198);
+    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 16 16' fill='white' xmlns='http://www.w3.org/2000/svg'%3e%3cpath d='M12.207 4.793a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0l-2-2a1 1 0 011.414-1.414L6.5 9.086l4.293-4.293a1 1 0 011.414 0z'/%3e%3c/svg%3e");
+}
+.check{
+    appearance: none;
+    cursor: pointer;
+    background-color: #fff;
+    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 16 16' fill='white' xmlns='http://www.w3.org/2000/svg'%3e%3cpath d='M12.207 4.793a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0l-2-2a1 1 0 011.414-1.414L6.5 9.086l4.293-4.293a1 1 0 011.414 0z'/%3e%3c/svg%3e");
+    width: 13px;
+    height: 13px;
+    vertical-align: text-bottom;
+    border-radius: 3px;
+    border: 1px solid #888;
+    transition: background-color 0.2s ease-in-out;
+}
+.label-radio{
+    font-size: 15px;
+}
+.select-horario{
+    font-size: 15px;
+    width: 90px;
+    height: 30px;
+}
+.enviar{
+    width: 40%;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background-color: #C78C19;
+    border: none;
+    border-radius: 5px;
+    transition: 0.2s all;
+    cursor: pointer;
+}
+.enviar:hover{
+    background-color: #dda534;
+    transform: scale(1.05);
+}
+table{
+    margin: 40px 40px;
+}
+thead{
+    background: #555555;
+    color: white;
+    font-weight: bold;
+}
+td,th{
+    border: 1px solid #000000;
+    padding: 8px 15px;
+}
