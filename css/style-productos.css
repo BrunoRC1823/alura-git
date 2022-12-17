@@ -1,7 +1,7 @@
 .productos{
     width: 65%;
     margin: 0 auto;
-    padding: 50px;
+    padding: 4em;
 }
 .productos li{
     background: white;
@@ -9,7 +9,7 @@
     text-align: center;
     width: 30%;
     vertical-align: top;
-    margin: 0 1.5%;
+    margin: 1.5% 1.5%;
     padding: 30px 20px;
     box-sizing: border-box;
     border-color: black;
@@ -27,21 +27,52 @@
     box-shadow: 3px 3px 3px  #088c19;
 }
 .productos h2{
-    font-size: 25px;
+    font-size: 1.7em;
     font-weight: bold;
 }
 .productos li:hover h2{
-    font-size: 28px;
+    font-size: 1.8em;
     font-weight: bold;
 }
 .productos li img{
     width: 100%;
 }
 .prod-desc{
-    font-size: 18px;
+    font-size: 1.2em;
 }
 .prod-pre{
-    font-size: 25px;
+    font-size: 1.6em;
     font-weight: bold;
     margin-top: 10px;
+}
+@media screen and (max-width:480px) {
+    .productos{
+        padding: 2em;
+    }
+    .productos li{
+        background: white;
+        display: inline-block;
+        text-align: center;
+        width: 45%;
+        vertical-align: top;
+        margin: 1.5% 0 0 3%;
+        box-sizing: border-box;
+        border-color: black;
+        border-width: 2px;
+        border-style: solid;
+        border-radius: 20px;
+        box-shadow: 5px 5px 5px  rgb(167, 166, 166);
+    }
+    .productos h2{
+        font-size: 1.3em;
+        font-weight: bold;
+    }
+    .prod-desc{
+        font-size: 1em;
+    }
+    .prod-pre{
+        font-size: 1.2em;
+        font-weight: bold;
+        margin-top: 10px;
+    }
 }
