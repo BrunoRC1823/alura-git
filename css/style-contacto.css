@@ -108,13 +108,5 @@ thead{
 }
 td,th{
     border: 1px solid #000000;
-    padding: 1em 1em;
-    text-align: center;
-    font-size: 1em;
-}
-@media screen and (max-width:480px) {
-    .enviar{
-        width: 100%;
-        font-size: 0.9em;
-    }
+    padding: 8px 15px;
 }
