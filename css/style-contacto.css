@@ -102,3 +102,9 @@ td,th{
     border: 1px solid #000000;
     padding: 8px 15px;
 }
+@media screen and (max-width:480px) {
+    .enviar{
+        width: 100%;
+        font-size: 0.9em;
+    }
+}
